@@ -1,4 +1,5 @@
 package geometry;
+
 class Circle {
     private Point center;
     private double radius;
@@ -18,5 +19,9 @@ class Circle {
 
     public double calculatePerimeter() {
         return 2 * Math.PI * radius;
+    }
+
+    public double calculateArea() {
+        return Math.PI * radius * radius;
     }
 }
